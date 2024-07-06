@@ -6,12 +6,16 @@ Accelerate your project with this Spring Security configuration template. Includ
 ### UserController
 Handles user registration and login.
 Http Path: 
-Signup -> POST http:<host>/backend-esame/auth/signup
-Login ->  POST http:<host>/backend-esame/auth/login
+
+Signup -> POST http:host/backend-esame/auth/signup
+
+Login ->  POST http:host/backend-esame/auth/login
+
 
 ### AdminController
 Admin-only endpoints for specific operations.
-Path: GET http:<host>/backend-esame/admin/prova (just for testing purpose)
+
+Path: GET http:host/backend-esame/admin/prova (just for testing purpose)
 
 ## Security
 Simplified setup with JWT authentication.
@@ -32,4 +36,4 @@ JWT Authentication
 ## Considerations
 Have Fun! 
 Customize and expand this template to fit your project needs. 
-Happy coding! :D
+Happy coding! 🙂
